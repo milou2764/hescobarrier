@@ -1,0 +1,5 @@
+vertexlitgeneric
+{
+    $basetexture models/milou2764/ferrous_soil
+    $bumpmap models/milou2764/ferrous_soil_normal
+}

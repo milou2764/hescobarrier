@@ -1,0 +1,8 @@
+#!/bin/bash
+vtex2 convert -f dxt1 -o ../materials/models/milou2764/ferrous_soil.vtf ferrous_soil.jpg
+vtex2 convert -n -o ../materials/models/milou2764/ferrous_soil_normal.vtf ferrous_soil_normal.jpg
+echo -n "vertexlitgeneric
+{
+    \$basetexture models/milou2764/ferrous_soil
+    \$bumpmap models/milou2764/ferrous_soil_normal
+}" > "../materials/models/milou2764/ferrous_soil.vmt"

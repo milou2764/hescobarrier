@@ -1,0 +1,5 @@
+#!/bin/bash
+wine ~/.wine/drive_c/steamcmd/steamapps/common/GarrysMod/bin/studiomdl.exe -nop4 hescobarrier.qc
+
+rm -r /home/milou/.local/share/Steam/steamapps/common/GarrysMod/garrysmod/addons/hescobarrier/models
+mv /home/milou/.local/share/Steam/steamapps/common/GarrysMod/garrysmod/models /home/milou/.local/share/Steam/steamapps/common/GarrysMod/garrysmod/addons/hescobarrier/

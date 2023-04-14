@@ -1,0 +1,5 @@
+vertexlitgeneric
+{
+$basetexture models/milou2764/hesco
+$bumpmap models/milou2764/hesco_normal
+}

@@ -1,0 +1,12 @@
+{
+	"title"		:	"hesco_barrier",
+	"type"		:	"model",
+	"ignore"	:
+	[
+		"*.sh",
+		".git/*",
+		".gitignore",
+		"src/*",
+		"icon.jpg"
+	]
+}
